@@ -1,6 +1,6 @@
 <template lang="pug">
 #app
-  img(src='https://jump720.github.io/jumpmusic/assets/logo.png')
+  img(src='https://jump720.github.io/jumpmusic/dist/logo.png')
   h1 Jump Music
   select(v-model="selectedCountry")
     option(v-for="country in countries" :value="country.value") {{ country.name }}
